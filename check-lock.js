@@ -1,19 +1,12 @@
-/***********************************
-
-> 应用名称：提前换位-显示按钮
-> 软件版本：1.0.0
 
 [rewrite_local]
   
-# > 测试
 https?:\/\/gofish\.ren\/v1\/index\/check-lock url script-response-body https://github.com/hezongkun/testa/blob/main/check-lock.js
-
 
 [mitm] 
 
 hostname=www.gofish.ren
 
-***********************************/
 
 
 
