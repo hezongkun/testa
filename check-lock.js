@@ -11,11 +11,10 @@ hostname=www.gofish.ren
 
 
 
-
 var test = {
   "lottery_type": "no_seize_seat",
   "time": 55000,
-  "start_time": "2024-08-02 14:00:00",
+  "start_time": "2024-08-02 15:33:00",
   "is_lock": 1,
   "fishing_name": "08.02测试勿买",
   "fid": "31425",
