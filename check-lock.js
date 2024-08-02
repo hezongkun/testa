@@ -11,8 +11,12 @@ var body = $response.body
 body = JSON.parse(body)
 if(body.time){
   body.time = body.time - 5000
+  body.request_time = body.request_time - 5000
   if(body.time<5000){
     body.time = 0
+  }
+ if(body.request_time<5000){
+    body.request_time = 0
   }
   $notify('倒计时减5s')
 }
