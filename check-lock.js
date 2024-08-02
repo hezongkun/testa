@@ -1,6 +1,6 @@
 [rewrite_local]
   
-https?:\/\/gofish\.ren\/v1\/index\/check-lock url script-response-body https://github.com/hezongkun/testa/blob/main/check-lock.js
+https?:\/\/gofish\.ren\/v1\/index\/check-lock url script-response-body https://raw.githubusercontent.com/hezongkun/testa/main/check-lock.js
 
 [mitm] 
 
