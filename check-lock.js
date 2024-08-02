@@ -1,4 +1,3 @@
-
 [rewrite_local]
   
 https?:\/\/gofish\.ren\/v1\/index\/check-lock url script-response-body https://github.com/hezongkun/testa/blob/main/check-lock.js
