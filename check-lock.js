@@ -6,7 +6,7 @@
 
 [rewrite_local]
   
-# > 
+# > 测试
 https?:\/\/gofish\.ren\/v1\/index\/check-lock url script-response-body https://github.com/hezongkun/testa/blob/main/check-lock.js
 
 
