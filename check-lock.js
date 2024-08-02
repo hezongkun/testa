@@ -23,4 +23,4 @@ var test = {
   "desc": "（普通鱼票）正在放号"
 }
 var body = JSON.stringify(test)
-$done({ body })
+$done(body)
