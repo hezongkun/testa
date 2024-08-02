@@ -2,7 +2,7 @@
 [rewrite_local]
   
 # > 
-https?:\/\/gofish\.ren\/v1\/index\/ticket-list url script-response-body https://github.com/hezongkun/testa/blob/main/change-btn.js
+https?:\/\/gofish\.ren\/v1\/index\/ticket-list url script-response-body https://raw.githubusercontent.com/hezongkun/testa/main/change-btn.js
 
 
 [mitm] 
