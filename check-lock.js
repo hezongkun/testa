@@ -20,7 +20,7 @@ hostname=www.gofish.ren
 
 
 
-# var body = $response.body
+
 var test = {
   "lottery_type": "no_seize_seat",
   "time": 55000,
