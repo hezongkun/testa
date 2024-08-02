@@ -14,7 +14,7 @@ if(body.time){
   if(body.time<5000){
     body.time = 0
   }
-  $notify('倒计时减10s')
+  $notify('倒计时减5s')
 }
 var body = JSON.stringify(body)
 $done(body)
